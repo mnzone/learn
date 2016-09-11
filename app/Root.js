@@ -25,7 +25,7 @@ class Root extends Component {
         return (
             <View style={styles.container}>
                 <Image source={{uri: 'https://facebook.github.io/react/img/logo_og.png'}}
-                       style={{width: width, height: 200, marginTop: 20}} />
+                       style={{width: width, height: 200, marginTop: 20}4n} />
 
                 <TextInput
                     placeholder="手机/邮箱/用户名"
@@ -34,8 +34,8 @@ class Root extends Component {
                         height: 38,
                         marginTop: 20,
                         marginLeft: 20,
-                        paddingLeft: 2,
-                        paddingRight: 2,
+                        paddingLeft: 10,
+                        paddingRight: 10,
                         borderWidth: 1,
                         borderColor: '#aaa',
                         fontSize: 12,
@@ -72,7 +72,7 @@ class Root extends Component {
                         height: 38,
                         marginTop: 20,
                         marginLeft: 20,
-                        paddingLeft: 2,
+                        paddingLeft: 10,
                         paddingRight: 2,
                         borderWidth: 1,
                         borderColor: '#aaa',
